@@ -95,6 +95,32 @@ Ask each person to write a query that:
 
 Share queries and results in your SQL client.  
 
+Let’s walk through the hands-on exercise step by step.
+
+### 🧪 Exercise Prompt:
+> Write a query that:
+> - Selects `first_name`, `last_name`, `department`  
+> - Filters for `salary > 60000`  
+> - Orders by `last_name` ascending  
+
+### ✅ Correct SQL Query:
+```sql
+SELECT first_name, last_name, department
+FROM employees
+WHERE salary > 60000
+ORDER BY last_name ASC;
+```
+
+### 📊 Expected Output (based on sample data):
+
+| first_name | last_name | department   |
+|------------|-----------|--------------|
+| Dan        | Patel     | Engineering  |
+| Bob        | Smith     | Marketing    |
+| Erin       | Wong      | Marketing    |
+
+These are the employees with salaries over 60,000, sorted alphabetically by last name.
+
 ---
 
 ## Next Steps
