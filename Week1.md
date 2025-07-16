@@ -95,13 +95,7 @@ Ask each person to write a query that:
 
 Share queries and results in your SQL client.  
 
-Let’s walk through the hands-on exercise step by step.
-
-### 🧪 Exercise Prompt:
-> Write a query that:
-> - Selects `first_name`, `last_name`, `department`  
-> - Filters for `salary > 60000`  
-> - Orders by `last_name` ascending  
+## 7. Let’s walk through the hands-on exercise step by step.
 
 ### ✅ Correct SQL Query:
 ```sql
